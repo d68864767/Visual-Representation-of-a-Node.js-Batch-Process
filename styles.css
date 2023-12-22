@@ -1,0 +1,66 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+#server-room {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-image: url('images/server-room-bg.jpg');
+    background-size: cover;
+}
+
+#server-racks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#server-racks img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+#control-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#control-panel img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+#flowchart {
+    width: 300px;
+    height: 300px;
+    background-image: url('images/flowchart.png');
+    background-size: cover;
+}
+
+#data-flow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/data-flow.png');
+    background-size: cover;
+    opacity: 0.5;
+}
+
+#background-elements {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('images/binary-code.png'), url('images/network-diagram.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left bottom, right bottom;
+    opacity: 0.2;
+}

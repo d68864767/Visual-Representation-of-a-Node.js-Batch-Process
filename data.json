@@ -1,0 +1,52 @@
+{
+    "inputData": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+    ],
+    "serverRacks": [
+        {
+            "id": "rack1",
+            "status": "active"
+        },
+        {
+            "id": "rack2",
+            "status": "active"
+        },
+        {
+            "id": "rack3",
+            "status": "active"
+        },
+        {
+            "id": "rack4",
+            "status": "active"
+        },
+        {
+            "id": "rack5",
+            "status": "active"
+        }
+    ],
+    "controlPanel": {
+        "id": "control1",
+        "operator": {
+            "name": "John Doe",
+            "age": 30,
+            "ethnicity": "Asian",
+            "attire": "casual business"
+        }
+    },
+    "dataFlow": {
+        "status": "active"
+    },
+    "backgroundElements": {
+        "binaryCode": "active",
+        "networkDiagrams": "active"
+    }
+}
